@@ -1,4 +1,4 @@
-class Pig //implements Animal 
+class Pig implements Animal//implements Animal 
 {     
      //your code here
      private String myType;
@@ -7,6 +7,6 @@ class Pig //implements Animal
      	myType = type;
      	mySound = sound;
      }
-     public getType(){}
-     public getSound(){}
+     public getType(){return myType;}
+     public getSound(){return mySound;}
 }

@@ -1,9 +1,16 @@
-class Cow //implements Animal 
+class Cow implements Animal//implements Animal 
 {     
      //your code here
      protected String myType;
      protected String mySound;
-     public Cow(){
-
+     public Cow(String type, String sound){
+     	myType = type;
+     	mySound = sound;
      }
+     public Cow(){
+     	myType = "unknown";
+     	mySound = "unknown";
+     }
+     public getType(){return myType;}
+     public getSound(){return mySound;}
 }
